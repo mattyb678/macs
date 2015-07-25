@@ -9,3 +9,5 @@ projectile.cache
 auto-save-list
 backups
 eshell
+# elpa packages
+/elpa/

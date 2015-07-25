@@ -74,6 +74,8 @@
 (add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
 (add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
 
+(add-hook 'after-init-hook 'global-company-mode)
+
 (eval-after-load 'emmet-mode
   '(progn
      (define-key emmet-mode-keymap (kbd "C-j") nil)))
